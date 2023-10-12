@@ -12,5 +12,6 @@ for i in range(1,END+1):
     driver.get(URL+str(i))
     sleep(0.6)
     driver.save_screenshot(str(i)+'.png')
+    
 driver.quit()
 ```
